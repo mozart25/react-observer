@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // 트랜스파일된 파일을 저장할 디렉토리
+    "rootDir": "./src", // 소스 파일들이 있는 디렉토리
+    "target": "ES5", // 트랜스파일할 JavaScript 버전
+    "module": "CommonJS", // 모듈 시스템 설정
+    "strict": true // 엄격한 타입 체크 옵션
+  },
+  "include": ["src/**/*"], // 포함할 파일 또는 디렉토리
+  "exclude": ["node_modules"] // 제외할 디렉토리
+}

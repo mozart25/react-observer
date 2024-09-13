@@ -1,0 +1,23 @@
+{
+  "name": "@mozart25/react-observer",
+  "version": "1.0.0",
+  "description": "A simple observer pattern implementation for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozart25/react-observer.git"
+  },
+  "keywords": [
+    "react",
+    "observer",
+    "pattern",
+    "typescript"
+  ],
+  "author": "supasupalee",
+  "license": "MIT"
+}
